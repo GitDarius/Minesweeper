@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\alien\Background.png" />
+    <None Remove="assets\alien\drapeau.png" />
+    <None Remove="assets\alien\gear_icon.jpg" />
+    <None Remove="assets\alien\Jauge-Easy.png" />
+    <None Remove="assets\alien\Jauge-Hard.png" />
+    <None Remove="assets\alien\Jauge-Medium.png" />
+    <None Remove="assets\alien\Jauge.png" />
+    <None Remove="assets\alien\Original.jfif" />
+    <None Remove="assets\alien\timer_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\alien\Background.png" />
+    <Resource Include="assets\alien\drapeau.png" />
+    <Resource Include="assets\alien\gear_icon.jpg" />
+    <Resource Include="assets\alien\Jauge-Easy.png" />
+    <Resource Include="assets\alien\Jauge-Hard.png" />
+    <Resource Include="assets\alien\Jauge-Medium.png" />
+    <Resource Include="assets\alien\Jauge.png" />
+    <Resource Include="assets\alien\Original.jfif" />
+    <Resource Include="assets\alien\timer_icon.png" />
+  </ItemGroup>
+
+</Project>
